@@ -1,0 +1,304 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(./assets/fonts//OpenSans-Bold.ttf);
+  src: url(./assets/fonts//OpenSans-SemiBold.ttf);
+  src: url(./assets/fonts//OpenSans-Regular.ttf);
+}
+
+
+body {
+  background-color: #fff;
+  margin: 0 auto 0;
+}
+
+#head {
+  display: block;
+  height: auto;
+  width: 88%;
+  margin: auto;
+  margin-bottom: 140px;
+}
+
+#head_title {
+  width: 40%;
+  display: inline-block;
+  margin-top: 62px;
+}
+
+.p1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 70%;
+  margin-top: 60px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 181%;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: px;
+}
+
+.name_txt {
+  color: #f91e58e5;
+}
+
+#head_img {
+  width: 60%;
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+}
+
+#design {
+  width: 100%;
+}
+
+#content {
+}
+
+#content #rec_1 {
+  padding: 40px 0 70px 0;
+  width: 100%;
+  text-align: center;
+  background: #f91e58;
+}
+
+h3 {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #fff;
+
+  /* Inside Auto Layout */
+
+  padding-top: 40px;
+}
+
+#content #rec_1 p {
+  position: static;
+  width: 52%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  margin: auto;
+}
+
+#content #rec_2 {
+  padding: 40px 0 70px 0;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+#content #rec_2 .skill_txt {
+  color: #000;
+  opacity: 70%;
+}
+
+#content #rec_2 .skill_content {
+  width: 70%;
+  height: auto;
+  align-items: center;
+  margin-top: 10px;
+  display: inline;
+}
+
+#content #rec_2 .skill_content .box {
+  height: 256px;
+  border-radius: 35px;
+  margin: 30px;
+  padding: 0 50px;
+  width: 140px;
+  display: inline-block;
+}
+
+#content #rec_2 .skill_content #box_1 {
+  background: #fef8e9;
+}
+
+#content #rec_2 .skill_content #box_2 {
+  background: #1db0ee1a;
+}
+
+#content #rec_2 .skill_content #box_3 {
+  background: #f5f5ff;
+}
+
+#content #rec_2 .skill_content #box_4 {
+  background: #40ec661a;
+}
+
+#content #rec_2 .skill_content .box img {
+  height: auto;
+  margin-top: 45px;
+}
+
+#content #rec_2 .skill_content .box p {
+  font-family: Open Sans;
+
+  font-size: 20px;
+  color: #000;
+  opacity: 70%;
+  margin-top: 30px;
+}
+
+#content #footer {
+  padding: 40px 0 70px 0;
+  width: 100%;
+  text-align: center;
+  background: #f91e58;
+  align-items: center;
+}
+
+#footer #contact {
+  width: 60%;
+  align-items: center;
+  position: static;
+  margin: auto;
+}
+
+#footer #contact table {
+  margin: auto;
+}
+
+#footer #contact table td {
+  padding: 20px;
+}
+
+#footer #contact table td img {
+  margin: 15px;
+}
+
+#footer #line {
+  width: 90%;
+  height: 1px;
+  background: #fff;
+  margin: auto;
+}
+
+#footer #contact a{
+  text-decoration: none;
+}
+
+#footer #contact p {
+  font-family: Open Sans;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  letter-spacing: 0.525em;
+  color: #fff;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    #head {
+        padding: 0 20 20 20;
+        margin: 0;
+    }
+
+  .p1 {
+    font-size: 13px;
+    margin: 10px 0;
+  }
+
+  #head_title {
+    width: 100%;
+     margin: 0;
+  }
+
+  #head_title h1 {
+    font-size: 23px;
+    line-height: 145%;
+  }
+
+  #head_img {
+    width: 100%;
+    margin-top: 25px;
+    float: none;
+  }
+
+  #content #rec_1 {
+    padding: 1px 0 30px;
+  }
+
+  h3 {
+      font-size: 15px;
+      padding: 0;
+      padding: 20px 0 0;
+  }
+
+  #content #rec_1 p {
+      font-size: 13px;
+      width: 85%;
+      line-height: 18px;
+      font-weight: 400;
+  }
+
+  #content #rec_2 {
+    padding: 1px 0 30px;
+  }
+
+  #content #rec_2 .skill_content {
+      width: 100%;
+  }
+
+  #content #rec_2 .skill_content .box {
+    height: 157px;
+    border-radius: 18px;
+    margin: 15px;
+    width: 120px;
+    padding: 0;
+    }
+
+#content #rec_2 .skill_content .box img {
+     width: 60px;
+     margin-top: 25px;
+     padding: 0;
+    }
+
+    #content #rec_2 .skill_content .box #figma {
+        width: 39px;
+    }
+
+    #content #footer {
+        padding: 0;
+        width: 100%;
+        padding: 1px 0 10;
+    }
+
+    #content #footer #contact {
+        width: 90%;
+    }
+
+    #footer #contact p {
+        font-size: 5px;
+    }
+
+    #footer #contact table td {
+        padding: 0;
+    }
+
+    #footer #contact table td img {
+        width: 17px;
+        padding: 0;
+        margin: 7;
+    }
+
+    #footer #contact p {
+      margin-top: 0;
+    }
+}

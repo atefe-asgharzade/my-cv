@@ -264,15 +264,18 @@ h3 {
     padding: 0;
     }
 
-#content #rec_2 .skill_content .box img {
+ #content #rec_2 .skill_content .box img {
      width: 60px;
      margin-top: 25px;
      padding: 0;
     }
 
-    #content #rec_2 .skill_content .box #figma {
+  #content #rec_2 .skill_content .box #figma {
         width: 39px;
     }
+  #content #rec_2 .skill_content .box p {
+    font-size: 14px;
+  }
 
     #content #footer {
         padding: 0;

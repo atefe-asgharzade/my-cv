@@ -1,8 +1,8 @@
 @font-face {
   font-family: IRYekan;
   font-family: IRYekanBold;
-  src: url(./assets/fonts//IRYekan.ttf);
-  src: url(./assets/fonts//IRYekanBold.ttf);
+  src: url(../fonts/IRYekan.ttf);
+  src: url(../fonts/IRYekanBold.ttf);
 }
 
 body {

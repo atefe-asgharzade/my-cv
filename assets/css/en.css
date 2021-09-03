@@ -5,7 +5,6 @@
   src: url(./assets/fonts//OpenSans-Regular.ttf);
 }
 
-
 body {
   background-color: #fff;
   margin: 0 auto 0;
@@ -16,22 +15,39 @@ body {
   height: auto;
   width: 88%;
   margin: auto;
-  margin-bottom: 140px;
+  overflow: auto;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+#bottom {
+  width: 88px;
+  height: 25px;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+#head #bottom a {
+  text-decoration: none;
+  font-family: Open Sans;
+  color: black;
+  font-size: 15px;
+  padding: 16px;
 }
 
 #head_title {
   width: 40%;
   display: inline-block;
   margin-top: 62px;
+  float: left;
 }
 
 .p1 {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 18px;
   opacity: 70%;
-  margin-top: 60px;
 }
 
 h1 {
@@ -39,12 +55,19 @@ h1 {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 70px;
-  line-height: 181%;
+  font-size: 67px;
+  line-height: 150%;
   color: rgba(0, 0, 0, 0.7);
-  margin-top: px;
 }
 
+h4 {
+  font-size: 30px;
+  color: #000;
+  opacity: 70%;
+  font-weight: 700;
+  font-family: open Sans;
+  line-height: 1.5em;
+}
 .name_txt {
   color: #f91e58e5;
 }
@@ -53,7 +76,6 @@ h1 {
   width: 60%;
   display: inline-block;
   float: right;
-  margin-top: 50px;
 }
 
 #design {
@@ -61,10 +83,11 @@ h1 {
 }
 
 #content {
+  margin-top: 50;
 }
 
 #content #rec_1 {
-  padding: 40px 0 70px 0;
+  padding: 10px 0 40px 0;
   width: 100%;
   text-align: center;
   background: #f91e58;
@@ -80,8 +103,6 @@ h3 {
   color: #fff;
 
   /* Inside Auto Layout */
-
-  padding-top: 40px;
 }
 
 #content #rec_1 p {
@@ -89,8 +110,7 @@ h3 {
   width: 52%;
   font-family: Open Sans;
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 27px;
   text-align: center;
   color: rgba(255, 255, 255, 0.85);
@@ -98,7 +118,7 @@ h3 {
 }
 
 #content #rec_2 {
-  padding: 40px 0 70px 0;
+  padding: 35px 0 35px 0;
   width: 100%;
   text-align: center;
   background: #fff;
@@ -118,12 +138,17 @@ h3 {
 }
 
 #content #rec_2 .skill_content .box {
-  height: 256px;
+  height: 230px;
   border-radius: 35px;
   margin: 30px;
   padding: 0 50px;
-  width: 140px;
+  width: 120px;
   display: inline-block;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+#content #rec_2 .skill_content .box:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 #content #rec_2 .skill_content #box_1 {
@@ -144,7 +169,7 @@ h3 {
 
 #content #rec_2 .skill_content .box img {
   height: auto;
-  margin-top: 45px;
+  margin-top: 30px;
 }
 
 #content #rec_2 .skill_content .box p {
@@ -157,7 +182,7 @@ h3 {
 }
 
 #content #footer {
-  padding: 40px 0 70px 0;
+  padding: 23px 0 16px 0;
   width: 100%;
   text-align: center;
   background: #f91e58;
@@ -190,7 +215,7 @@ h3 {
   margin: auto;
 }
 
-#footer #contact a{
+#footer #contact a {
   text-decoration: none;
 }
 
@@ -205,23 +230,28 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-    #head {
-        padding: 0 20 20 20;
-        margin: 0;
-    }
+  #head {
+    padding: 0 20 20 20;
+    margin: 0;
+  }
 
-  .p1 {
-    font-size: 13px;
-    margin: 10px 0;
+  #bottom {
+    width: 52px;
+    height: 17px;
+    margin-bottom: 28px;
+  }
+
+  #head #bottom a {
+    padding: 9px;
+    font-size: 10px;
   }
 
   #head_title {
-    width: 100%;
-     margin: 0;
+    margin-top: 30px;
   }
 
   #head_title h1 {
-    font-size: 23px;
+    font-size: 21px;
     line-height: 145%;
   }
 
@@ -231,21 +261,29 @@ h3 {
     float: none;
   }
 
+  #content {
+    margin: 10 0;
+  }
+
   #content #rec_1 {
     padding: 1px 0 30px;
   }
 
   h3 {
-      font-size: 15px;
-      padding: 0;
-      padding: 20px 0 0;
+    font-size: 15px;
+    padding: 0;
+    padding: 20px 0 0;
+  }
+
+  h4 {
+    font-size: 11px;
   }
 
   #content #rec_1 p {
-      font-size: 13px;
-      width: 85%;
-      line-height: 18px;
-      font-weight: 400;
+    font-size: 13px;
+    width: 85%;
+    line-height: 18px;
+    font-weight: 400;
   }
 
   #content #rec_2 {
@@ -253,52 +291,149 @@ h3 {
   }
 
   #content #rec_2 .skill_content {
-      width: 100%;
+    width: 100%;
   }
 
   #content #rec_2 .skill_content .box {
-    height: 157px;
+    height: 140px;
     border-radius: 18px;
     margin: 15px;
-    width: 120px;
+    width: 105px;
     padding: 0;
-    }
+  }
 
-#content #rec_2 .skill_content .box img {
-     width: 60px;
-     margin-top: 25px;
-     padding: 0;
-    }
+  #content #rec_2 .skill_content .box p {
+    font-size: 13px;
+  }
 
-    #content #rec_2 .skill_content .box #figma {
-        width: 39px;
-    }
+  #content #rec_2 .skill_content .box img {
+    width: 55px;
+    margin-top: 22px;
+    padding: 0;
+  }
 
-    #content #footer {
-        padding: 0;
-        width: 100%;
-        padding: 1px 0 10;
-    }
+  #content #rec_2 .skill_content .box #figma {
+    width: 39px;
+  }
 
-    #content #footer #contact {
-        width: 90%;
-    }
+  #content #footer {
+    padding: 0;
+    width: 100%;
+    padding: 1px 0 10;
+  }
 
-    #footer #contact p {
-        font-size: 5px;
-    }
+  #content #footer #contact {
+    width: 90%;
+  }
 
-    #footer #contact table td {
-        padding: 0;
-    }
+  #footer #contact p {
+    font-size: 5px;
+  }
 
-    #footer #contact table td img {
-        width: 17px;
-        padding: 0;
-        margin: 7;
-    }
+  #footer #contact table td {
+    padding: 0;
+  }
 
-    #footer #contact p {
-      margin-top: 0;
-    }
+  #footer #contact table td img {
+    width: 17px;
+    padding: 0;
+    margin: 7;
+  }
+
+  #footer #contact p {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  #head {
+    padding: 20px 0;
+  }
+
+  #bottom {
+    width: 60px;
+    height: 18px;
+  }
+
+  #head #bottom a {
+    font-size: 11px;
+    padding: 10px;
+  }
+
+  #head_title {
+    width: 40%;
+    margin-top: 6px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 13px;
+  }
+
+  #head_img {
+    width: 60%;
+  }
+  #content #rec_1 p {
+    width: 56%;
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  #content #rec_2 .skill_content .box p {
+    font-size: 17px;
+  }
+
+  #content #rec_2 .skill_content .box {
+    height: 210px;
+    padding: 0 40px;
+    width: 100px;
+  }
+
+  #content #rec_2 .skill_content .box img {
+    width: 90%;
+  }
+
+  #content #rec_2 .skill_content .box #figma {
+    width: 65%;
+  }
+
+  #footer #contact {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 900px) {
+  #head_title {
+    margin-top: 0px;
+    width: 45%;
+  }
+
+  #bottom {
+    width: 72px;
+    height: 21px;
+    border-radius: 11px;
+    margin-bottom: 80px;
+  }
+
+  #head #bottom a {
+    font-size: 13px;
+    padding: 13px;
+  }
+
+
+  #head_img {
+    width: 55%;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+  h4 {
+    font-size: 21px;
+  }
 }

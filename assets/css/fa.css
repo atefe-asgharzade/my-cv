@@ -1,0 +1,439 @@
+@font-face {
+  font-family: IRYekan;
+  font-family: IRYekanBold;
+  src: url(./assets/fonts//IRYekan.ttf);
+  src: url(./assets/fonts//IRYekanBold.ttf);
+}
+
+body {
+  background-color: #fff;
+  margin: 0 auto 0;
+}
+
+#head {
+  display: block;
+  height: auto;
+  width: 88%;
+  margin: auto;
+  overflow: auto;
+  padding: 60 0 40;
+  overflow: hidden;
+}
+
+#bottom {
+  width: 85px;
+  height: 26px;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+#head #bottom a {
+  text-decoration: none;
+  font-family: IRYekan;
+  color: black;
+  font-size: 13px;
+  padding: 19px;
+}
+
+#head_title {
+  width: 40%;
+  display: inline-block;
+  margin-top: 20px;
+  float: right;
+  direction: rtl;
+}
+
+h1 {
+  font-weight: bolder;
+  font-family: IRYekanBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 67px;
+  line-height: 150%;
+  color: #f91e58e5;
+}
+
+h2 {
+  font-family: IRYekanBold;
+  color: #000;
+  opacity: 70%;
+  font-size: 26px;
+  line-height: 1;
+}
+
+h4 {
+  font-size: 30px;
+  color: #000;
+  opacity: 70%;
+  font-weight: 700;
+  font-family: IRYekan;
+  line-height: 1.5em;
+}
+
+#head_img {
+  width: 60%;
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+}
+
+#design {
+  width: 100%;
+}
+
+#content {
+  margin-top: 50;
+}
+
+#content #rec_1 {
+  padding: 10px 0 40px 0;
+  width: 100%;
+  text-align: center;
+  background: #f91e58;
+}
+
+h3 {
+  font-family: IRYekanBold;
+  font-weight: bold;
+  font-size: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #fff;
+
+  /* Inside Auto Layout */
+}
+
+#content #rec_1 p {
+  position: static;
+  width: 52%;
+  font-family: IRYekan;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 31px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  margin: auto;
+}
+
+#content #rec_2 {
+  padding: 35px 0 35px 0;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+#content #rec_2 .skill_txt {
+  color: #000;
+  opacity: 70%;
+}
+
+#content #rec_2 .skill_content {
+  width: 70%;
+  height: auto;
+  align-items: center;
+  margin-top: 10px;
+  display: inline;
+}
+
+#content #rec_2 .skill_content .box {
+  height: 230px;
+  border-radius: 35px;
+  margin: 30px;
+  padding: 0 50px;
+  width: 120px;
+  display: inline-block;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+#content #rec_2 .skill_content .box:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#content #rec_2 .skill_content #box_1 {
+  background: #fef8e9;
+}
+
+#content #rec_2 .skill_content #box_2 {
+  background: #1db0ee1a;
+}
+
+#content #rec_2 .skill_content #box_3 {
+  background: #f5f5ff;
+}
+
+#content #rec_2 .skill_content #box_4 {
+  background: #40ec661a;
+}
+
+#content #rec_2 .skill_content .box img {
+  height: auto;
+  margin-top: 30px;
+}
+
+#content #rec_2 .skill_content .box p {
+  font-family: IRYekan;
+
+  font-size: 20px;
+  color: #000;
+  opacity: 70%;
+  margin-top: 30px;
+}
+
+#content #footer {
+  padding: 23px 0 16px 0;
+  width: 100%;
+  text-align: center;
+  background: #f91e58;
+  align-items: center;
+}
+
+#footer #contact {
+  width: 60%;
+  align-items: center;
+  position: static;
+  margin: auto;
+}
+
+#footer #contact table {
+  margin: auto;
+}
+
+#footer #contact table td {
+  padding: 20px;
+}
+
+#footer #contact table td img {
+  margin: 15px;
+}
+
+#footer #line {
+  width: 90%;
+  height: 1px;
+  background: #fff;
+  margin: auto;
+}
+
+#footer #contact a {
+  text-decoration: none;
+}
+
+#footer #contact p {
+  font-family: IRYekan;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  letter-spacing: 0.525em;
+  color: #fff;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  #head {
+    margin: auto;
+    padding: 35px 0 40;
+  }
+
+  #bottom {
+    width: 48px;
+    height: 14px;
+    margin-bottom: 28px;
+  }
+
+  #head #bottom a {
+    padding: 10px;
+    font-size: 7px;
+  }
+
+  #head_title {
+    width: 100%;
+    margin: 0;
+  }
+
+  #head_title h1 {
+    font-size: 25px;
+    line-height: 145%;
+  }
+
+  #head_img {
+    width: 100%;
+    margin-top: 25px;
+    float: none;
+  }
+
+  #content {
+    margin: 10 0;
+  }
+
+  #content #rec_1 {
+    padding: 1px 0 30px;
+  }
+
+  h3 {
+    font-size: 15px;
+    padding: 0;
+    padding: 20px 0 0;
+  }
+
+  h2 {
+    font-size: 12px;
+    line-height: 00.525em;
+  }
+
+  #content #rec_1 p {
+    font-size: 12px;
+    width: 85%;
+    line-height: 18px;
+    font-weight: 400;
+  }
+
+  #content #rec_2 {
+    padding: 1px 0 30px;
+  }
+
+  #content #rec_2 .skill_content {
+    width: 100%;
+  }
+
+  #content #rec_2 .skill_content .box {
+    height: 140px;
+    border-radius: 18px;
+    margin: 15px;
+    width: 105px;
+    padding: 0;
+  }
+
+  #content #rec_2 .skill_content .box p {
+    font-size: 13px;
+  }
+
+  #content #rec_2 .skill_content .box img {
+    width: 55px;
+    margin-top: 22px;
+    padding: 0;
+  }
+
+  #content #rec_2 .skill_content .box #figma {
+    width: 39px;
+  }
+
+  #content #footer {
+    padding: 0;
+    width: 100%;
+    padding: 1px 0 10;
+  }
+
+  #content #footer #contact {
+    width: 90%;
+  }
+
+  #footer #contact p {
+    font-size: 5px;
+  }
+
+  #footer #contact table td {
+    padding: 0;
+  }
+
+  #footer #contact table td img {
+    width: 17px;
+    padding: 0;
+    margin: 7;
+  }
+
+  #footer #contact p {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  #head {
+    padding: 20px 0;
+  }
+
+  #bottom {
+    width: 56px;
+    height: 17px;
+  }
+
+  #head #bottom a {
+    font-size: 8px;
+    padding: 12px;
+  }
+
+  #head_title {
+    width: 40%;
+    margin-top: 6px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 14px;
+    line-height: 0.5;
+  }
+
+  #head_img {
+    width: 60%;
+  }
+  #content #rec_1 p {
+    width: 56%;
+    font-size: 13px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  #content #rec_2 .skill_content .box p {
+    font-size: 17px;
+  }
+
+  #content #rec_2 .skill_content .box {
+    height: 210px;
+    padding: 0 40px;
+    width: 100px;
+  }
+
+  #content #rec_2 .skill_content .box img {
+    width: 90%;
+  }
+
+  #content #rec_2 .skill_content .box #figma {
+    width: 65%;
+  }
+
+  #footer #contact {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 900px) {
+  #head_title {
+    width: 45%;
+    margin-top: 0;
+  }
+  #bottom {
+    width: 68px;
+    height: 21px;
+    border-radius: 11px;
+    margin-bottom: 80px;
+  }
+
+  #head #bottom a {
+    font-size: 10px;
+    padding: 16px;
+  }
+
+  #head_img {
+    width: 55%;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 1;
+  }
+}

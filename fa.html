@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="fa">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <link type="text/css" rel="stylesheet" href="./assets/css/en.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/fa.css" />
     <title>Portfolio</title>
   </head>
 
@@ -14,13 +14,13 @@
     <div id="head">
       <div id="head_title">
         <div id="bottom">
-          <a href="fa.html">Persian</a>
+          <a href="index.html">انگلیسی</a>
         </div>
-        <h1>
-          Hi ! I'm <br />
-          <span class="name_txt"> Atefe Asgharzade </span>
-        </h1>
-        <h4>Graphic designer</h4>
+        <h2>
+           سلام! من
+        </h2>
+        <h1>عاطفه اصغرزاده</h1>
+        <h2> یک گرافیست هستم</h2>
       </div>
       <div id="head_img">
         <img id="Design" src="./assets/icons/design.svg" />
@@ -28,49 +28,46 @@
     </div>
     <div id="content">
       <div id="rec_1">
-        <h3>BIOGRAPHY</h3>
+        <h3>زندگینامه</h3>
         <p>
-          I love learning, creativity, colors, nature and fun in my daily
-          life<br />
-          Now that I have the moment, I rather be involve in things that I
-          believe in them. I only live once so I try to love everyone I have in
-          my life.
+          من عاشق یادگیری‌، خلاقیت‌، رنگ ها‌، طبیعت و سرگرمی در زندگی روزمره‌ام هستم
+          <br />
+          الان که فرصت دارم‌، ترجیح می دهم درگیر چیزهایی باشم که به اون‌ها اعتقاد دارم
+           .من فقط یکبار زندگی می کنم، بنابراین سعی می کنم همه کسانی رو که تو زندگی‌ام دارم دوست داشته باشم
         </p>
-        <h3>MY CAREER</h3>
+        <h3>کار من</h3>
         <p>
-          i found my interest in graphic design in the 2019 and my path of life
-          inclined to this way.<br />
-          at first, i was looking for learning, then trying to creat and now i,m
-          looking for myself in it.<br />
-          along with creating, i always keep learning and learning
+        من در سال 2019 متوجه علاقه‌م به طراحی گرافیکی شدم و مسیر زندیگم به این سمت تغییر کرد<br />
+          در شروع این مسیر سعی می‌کردم یاد بگیرم، بعد سعی کردم که خلق کنم و الان به دنبال خودم تو این مسیر هستم<br />
+          در کنار کار، همیشه به دنبال یادگیری و یادگیری هستم
         </p>
       </div>
 
       <div id="rec_2">
-        <h3 class="skill_txt">MY SKILLS</h3>
+        <h3 class="skill_txt">مهارت‌های من</h3>
         <div class="skill_content">
           <div class="box" id="box_1">
             <img src="./assets/icons/ico_Ai.svg" />
-            <p>Illustration</p>
+            <p>ایلستریتور</p>
           </div>
           <div class="box" id="box_2">
             <img src="./assets/icons/ico_Ps.svg" />
-            <p>Photoshop</p>
+            <p>فتوشاپ</p>
           </div>
           <div class="box" id="box_3">
             <img src="./assets/icons/ico_Ae.svg" />
-            <p>After Effect</p>
+            <p>افتر افکت</p>
           </div>
           <div class="box" id="box_4">
             <img id="figma" src="./assets/icons/ico_figma.svg" />
-            <p>Figma</p>
+            <p>فیگما</p>
           </div>
         </div>
       </div>
 
       <div id="footer">
         <div id="contact">
-          <h3>CONTACT</h3>
+          <h3>ارتباط با من</h3>
           <table>
             <tr>
               <td>
@@ -103,8 +100,8 @@
     <script src="./assets/js/gsap-latest-beta.min.js"></script>
     <script>
 
-        gsap.from('h1', {opacity: 0, stagger: 0.6, duration: 1.5, delay:0.7, y: -100, ease: 'Power2.easeOut'})
-        gsap.from('h4', {opacity: 0, stagger: 0.6, duration: 1.5, delay:0.7, y: -100, ease: 'Power2.easeOut'})
+        gsap.from('h1', {opacity: 0, duration: 1.5, delay:0.7, y: -100, ease: 'Power2.easeOut'})
+        gsap.from('h2', {opacity: 0, duration: 1.5, delay:0.7, y: -100, ease: 'Power2.easeOut'})
         gsap.from('#head_img', {opacity: 0, duration:1.5, delay:1, x: 100, ease: 'Power2.easeOut'})
     </script>
   </body>
